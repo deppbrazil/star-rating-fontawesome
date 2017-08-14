@@ -1,0 +1,26 @@
+label {
+    font-size: 25px;
+    cursor: pointer;
+    /*background-color: yellow;*/
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.estrelas {
+    width: auto;
+    /*background-color: green;*/
+    margin-left: 5%;
+}
+
+.estrelas input[type=radio] {
+    display: none;
+}
+
+.estrelas label i.fa:before {
+    content: '\f005';
+    color: #FC0;
+}
+
+.estrelas input[type=radio]:checked ~ label i.fa:before {
+    color: #CCC;
+}
